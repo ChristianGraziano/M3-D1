@@ -1,0 +1,76 @@
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+
+
+.jumbotron h1 {
+    color:red;
+}
+
+nav span {
+    font-weight: bold;
+}
+
+.jumbotron .lead a {
+    color: green;
+}
+
+.blog-post:first-of-type {
+    background-color: rgb(236, 236, 172);
+}
+
+.blog-post hr {
+    color: rgb(253, 0, 0);
+
+}
+
+nav span:nth-of-type(even) {
+ color: blueviolet;   
+}
+
+aside>div:nth-child(2)>ol>li {
+    background-color: rgb(255, 230, 161);
+}
+
+.blog-post:nth-of-type(2) .blog-post-meta a {
+    color: rgb(62, 212, 187);
+}
+
+
+.blog-post:last-of-type ul li:nth-child(2) {
+    color: burlywood ;
+}
+
+.blog-pagination>a:nth-child(2) {
+    background: #A43A9D;
+    background: -moz-linear-gradient(left, #A43A9D 0%, #2388CB 100%, #2A4EFF 100%);
+    background: -webkit-linear-gradient(left, #A43A9D 0%, #2388CB 100%, #2A4EFF 100%);
+    background: linear-gradient(to right, #A43A9D 0%, #2388CB 100%, #2A4EFF 100%);
+    color: black;
+    font-weight: bold;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+
+}
+
+.float-right {
+    color: brown;
+}
+
+
+footer p a:last-of-type {
+    color: greenyellow;
+}
